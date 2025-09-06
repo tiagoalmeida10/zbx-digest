@@ -44,9 +44,9 @@ pip install -r requirements.txt
 3. Exemplos de execução:
 
 ```bash
-python src/main.py --from 2025-09-01 --to 2025-09-30 --out-md report.md
-python src/main.py --mock --out-md report.md
-python src/main.py --ack-regex "(lab|dev)" --auto-ack --no-dry-run --mock
+python main.py --from 2025-09-01 --to 2025-09-30 --out-md report.md
+python main.py --mock --out-md report.md
+python main.py --ack-regex "(lab|dev)" --auto-ack --no-dry-run --mock
 ```
 
 ---
@@ -54,10 +54,9 @@ python src/main.py --ack-regex "(lab|dev)" --auto-ack --no-dry-run --mock
 ## Estrutura
 ```
 zbx-digest/
-  ├─ src/
-  │   ├─ main.py
-  │   ├─ zbx_api.py
-  │   └─ utils.py
+  ├─ main.py
+  │─ zbx_api.py
+  │─ utils.py
   ├─ requirements.txt
   ├─ .env.example
   └─ README.md
