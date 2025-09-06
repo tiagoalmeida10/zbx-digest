@@ -23,7 +23,7 @@ Ferramenta CLI para **coleta, sumarização e auto-ação de incidentes** do Zab
 
 1. Clone o repositório e instale:
 ```bash
-git clone https://github.com/SEU-USUARIO/zbx-digest.git
+git clone https://github.com/tiagoalmeida10/zbx-digest.git
 cd zbx-digest
 python -m venv .venv
 . .venv/bin/activate
