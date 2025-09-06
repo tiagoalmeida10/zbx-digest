@@ -17,6 +17,15 @@ Ferramenta CLI para **coleta, sumarização e auto-ação de incidentes** do Zab
 - `requests`
 - `python-dotenv`
 
+
+## 🎯 Aprendizados (o que exercitei aqui)
+- Consumo de **API JSON-RPC** (login + chamadas autenticadas)
+- **Tratamento/normalização** de dados e agregação
+- **CLI com argparse** (flags e DX)
+- **Regex** para automação (auto-ack seletivo)
+- Geração de **relatórios Markdown/CSV**
+- Boas práticas: `.env`, `requirements.txt`, `dry-run`, `mock mode`
+
 ---
 
 ## 🚀 Como rodar
